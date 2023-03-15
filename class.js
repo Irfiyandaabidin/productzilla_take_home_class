@@ -98,25 +98,25 @@ class Student {
     }
 
     predikat(rataRata){
-            if (rataRata == undefined){
-                console.error("Masukkan nilai rata rata pada parameter")
-            }
+        if (rataRata == undefined){
+            console.error("Masukkan nilai rata rata pada parameter")
+        }
             
-            if (rataRata > 95){
-                return "A"
-            } else if (rataRata > 90) {
-                return "B+"
-            } else if (rataRata > 85) {
-                return "B"
-            } else if (rataRata > 80) {
-                return "C+"
-            } else if (rataRata > 75) {
-                return "C"
-            } else if (rataRata > 70) {
-                return "D"
-            } else {
-                return "E"
-            }
+        if (rataRata > 95){
+            return "A"
+        } else if (rataRata > 90) {
+            return "B+"
+        } else if (rataRata > 85) {
+            return "B"
+        } else if (rataRata > 80) {
+            return "C+"
+        } else if (rataRata > 75) {
+            return "C"
+        } else if (rataRata > 70) {
+            return "D"
+        } else {
+            return "E"
+        }
     }
 }
 
