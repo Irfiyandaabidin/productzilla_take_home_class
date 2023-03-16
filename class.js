@@ -15,6 +15,11 @@
 // - getHeight(height) -> untuk mengambil height
 
 class Person {
+    name;
+    age;
+    gender;
+    height;
+
     constructor(name, age, gender, height){
         this.name = name;
         this.age = age;
@@ -77,6 +82,10 @@ console.log("====================================")
 // 2. Buat sebuah class dengan nama Student. Class ini akan menyimpan nama, NIM dan daftar nilai (disimpan dalam array) dari seorang mahasiswa. Di class ini juga dapat melakukan penambahaan data nilai baru ke dalam daftar nilai, mengambil nilai rata rata dari daftar nilai, dan menentukan predikat (A, B+, B, C+, C, D, E).
 
 class Student {
+    nama = '';
+    nim = ''
+    daftarNilai = [];
+    
     constructor(nama, nim, daftarNilai){
         this.nama = nama
         this.nim = nim
